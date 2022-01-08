@@ -97,6 +97,6 @@ class MainWindow(QMainWindow):
         self.urlbar.setCursorPosition(0)
   
 app = QApplication(sys.argv)
-app.setApplicationName("МАЗНИЯ БРАУЗЪТ")
+app.setApplicationName("АМЕБАТА")
 window = MainWindow()
 app.exec_()
