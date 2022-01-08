@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
  
         self.browser = QWebEngineView()
  
-        self.browser.setUrl(QUrl("http://google.com"))
+        self.browser.setUrl(QUrl("http://duckduckgo.com"))
  
         self.browser.urlChanged.connect(self.update_urlbar)
  
